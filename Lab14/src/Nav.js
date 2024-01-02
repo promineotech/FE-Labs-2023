@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
+// In React 18+ it is no longer necessary to import React in each child component. 
 
-export default class Nav extends Component {
-  render() {
+function Nav(){
+ 
     return (
       <nav className="navBar">
         <ul>
@@ -12,4 +12,5 @@ export default class Nav extends Component {
       </nav>
     )
   }
-}
+
+export default Nav;
